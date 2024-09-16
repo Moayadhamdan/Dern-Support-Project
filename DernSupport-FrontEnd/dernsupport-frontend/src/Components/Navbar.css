@@ -1,0 +1,88 @@
+/* Navbar container */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgba(94, 94, 94, 0.8), rgba(0, 0, 0, 0.8));
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s;
+  }
+  
+  .navbar__logo {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .navbar__logo:hover {
+    color: #f39c12; /* Adjust to your brand color */
+  }
+  
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__link:hover {
+    color: #f39c12; /* Adjust to your brand color */
+  }
+  
+  .navbar__logout {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  .navbar__logout:hover {
+    color: #e74c3c; /* Adjust to your logout highlight color */
+  }
+  
+  .navbar__account {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 1023px) {
+    .navbar {
+      padding: 0 1rem;
+    }
+  
+    .navbar__menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar__link {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .navbar__logo {
+      font-size: 1.25rem;
+    }
+  
+    .navbar__link {
+      font-size: 0.875rem;
+    }
+  }
+  

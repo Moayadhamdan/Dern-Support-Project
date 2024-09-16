@@ -1,0 +1,65 @@
+/* TaskRequests.css */
+
+.task-requests-container {
+    padding-top: 20px;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ant-table {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for the table */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker header for better readability */
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .ant-table-tbody > tr > td {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .ant-btn-primary {
+    background-color: #4CAF50; /* Custom green button color */
+    border-color: #4CAF50;
+  }
+  
+  .ant-btn-primary:hover, .ant-btn-primary:focus {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  
+  .ant-btn-primary-danger {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+  
+  .ant-btn-primary-danger:hover, .ant-btn-primary-danger:focus {
+    background-color: #e53935;
+    border-color: #e53935;
+  }
+  
+  /* Table Container */
+  .table-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Ensuring text is readable on the background */
+  h1, p, .ant-table-cell {
+    color: #fff;
+  }
+  

@@ -1,0 +1,44 @@
+/* Container styles */
+.knowledge-base-container {
+    padding: 20px;
+    background-image: url('../img/knowledgeBaseBackground.jpg'); /* Adjust path if needed */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 100vh; /* Ensure the container has at least full viewport height */
+    color: #fff; /* Set text color to white for better contrast */
+  }
+  
+  /* Title styles */
+  .knowledge-base-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #fff; /* White color for title text */
+  }
+  
+  /* Table styles */
+  .knowledge-base-table {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the table container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
+  }
+  
+  /* Table header styles */
+  .knowledge-base-table .ant-table-thead > tr > th {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent header background */
+    color: #fff; /* White text color for headers */
+    font-weight: bold; /* Bold text for headers */
+  }
+  
+  /* Table cell styles */
+  .knowledge-base-table .ant-table-cell {
+    background-color: rgba(255, 255, 255, 0.6); /* Slightly transparent background for cells */
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  /* Table row hover styles */
+  .knowledge-base-table .ant-table-row:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly highlighted background on hover */
+  }
+  

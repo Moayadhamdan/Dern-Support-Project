@@ -1,0 +1,73 @@
+/* Jobs.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.jobs-container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark transparent background for the entire container */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #ffffff; /* White text for readability */
+}
+
+.jobs-table {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for a professional effect */
+}
+
+.ant-table {
+    background-color: transparent; /* Make table background transparent */
+}
+
+.ant-table-thead > tr > th {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark transparent header background */
+    color: #ffffff; /* White text for table headers */
+}
+
+.ant-table-tbody > tr > td {
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent rows */
+    color: #333; /* Dark text for better readability */
+}
+
+.ant-modal {
+    background-color: rgba(255, 255, 255, 0.9); /* Modal background with slight transparency */
+    border-radius: 10px;
+}
+
+.ant-btn {
+    background-color: #1890ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for button */
+    transition: background-color 0.3s ease;
+}
+
+.ant-btn:hover {
+    background-color: #40a9ff;
+}
+
+.ant-modal-title {
+    color: #333; /* Dark text for modal title */
+    font-weight: bold;
+}
+
+.ant-input, .ant-picker {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.ant-input:hover, .ant-picker:hover {
+    border-color: #1890ff; /* Hover effect for inputs */
+}

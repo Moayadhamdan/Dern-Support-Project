@@ -1,0 +1,92 @@
+/* JobSparePart.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .job-sparepart-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .job-sparepart-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-sparepart-table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .ant-input-search {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .ant-table {
+    background-color: transparent;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: rgba(0, 0, 0, 0.05); /* Header with subtle background */
+    font-weight: bold;
+  }
+  
+  .ant-table-tbody > tr > td {
+    background-color: rgba(255, 255, 255, 0.9); /* Table rows with a subtle background */
+  }
+  
+  .ant-btn {
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+  }
+  
+  .ant-btn:hover {
+    background-color: #40a9ff;
+  }
+  
+  .ant-modal {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent modal */
+  }
+  
+  .ant-modal-header {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .ant-modal-title {
+    font-weight: bold;
+  }
+  
+  .ant-input,
+  .ant-input-number {
+    width: 100%;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .ant-btn-primary {
+    background-color: #52c41a;
+    border-color: #52c41a;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #73d13d;
+    border-color: #73d13d;
+  }
+  

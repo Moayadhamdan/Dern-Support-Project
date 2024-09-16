@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  color: #007bff; /* Default blue color for text */
+  font-family: Arial, sans-serif; /* Clean and professional font */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.7); /* Semi-transparent background for better readability */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1.5rem + 2vmin); /* Larger, responsive font size */
+  color: #007bff; /* Blue text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds contrast to text */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Specific styles for the home page */
+.home-background {
+  background-image: url('./img/Homeimg.png'); /* Ensure path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 5rem; /* Large title font size */
+  margin-bottom: 20px;
+  color: #000000; /* Blue title color */
+}
+
+.home-description {
+  font-size: 1.9rem; /* Large description font size */
+  max-width: 800px;
+  margin: 20px auto;
+  color: #000000; /* Blue description color */
+}
+
+.home-button {
+  font-size: 1.2rem; /* Larger button font size */
+  padding: 10px 20px;
+}

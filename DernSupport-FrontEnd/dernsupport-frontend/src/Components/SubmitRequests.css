@@ -1,0 +1,84 @@
+/* Container styles */
+.submit-requests-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url('../img/addTaskBackground.jpg'); /* Adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #fff; /* White text for better contrast */
+    text-align: center; /* Center text */
+  }
+  
+  /* Modal styles */
+  .submit-requests-modal .ant-modal-header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff;
+  }
+  
+  .submit-requests-modal .ant-modal-title {
+    font-size: 24px; /* Larger title font */
+  }
+  
+  .submit-requests-modal .ant-form-item-label {
+    color: #fff; /* White labels for readability */
+  }
+  
+  .submit-requests-modal .ant-btn-primary {
+    background-color: #1890ff; /* Ant Design primary color */
+    border-color: #1890ff;
+  }
+  
+  /* Form styles */
+  .submit-requests-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .submit-requests-form .ant-form-item-label {
+    color: #fff; /* White labels */
+  }
+  
+  .submit-requests-form .ant-input,
+  .submit-requests-form .ant-input-textarea {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent input background */
+    border: none;
+    color: #000; /* Black text for input fields */
+  }
+  
+  .submit-requests-form .ant-btn-primary {
+    background-color: #1890ff; /* Ant Design primary color */
+    border-color: #1890ff;
+    color: #fff; /* White text */
+  }
+  
+  /* List styles */
+  .submit-requests-list {
+    width: 80%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the list items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
+  }
+  
+  .submit-requests-list .ant-list-item {
+    font-size: 18px; /* Larger text for list items */
+  }
+  
+  .submit-requests-list .ant-list-item-meta-title {
+    color: #1890ff; /* Blue title text */
+    font-size: 20px; /* Larger title font */
+  }
+  
+  .submit-requests-list .ant-list-item-meta-description {
+    color: #d9d9d9; /* Light gray description text */
+  }
+  

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DernSupport-BackEnd", "DernSupport-BackEnd\DernSupport-BackEnd.csproj", "{2D168ED7-9F15-418B-B491-8B556D15FDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DernSupport-BackEndTests", "DernSupport-BackEndTests\DernSupport-BackEndTests.csproj", "{3713EF0D-721B-4FF4-A562-D8294F1AB34D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D168ED7-9F15-418B-B491-8B556D15FDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D168ED7-9F15-418B-B491-8B556D15FDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D168ED7-9F15-418B-B491-8B556D15FDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D168ED7-9F15-418B-B491-8B556D15FDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3713EF0D-721B-4FF4-A562-D8294F1AB34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3713EF0D-721B-4FF4-A562-D8294F1AB34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3713EF0D-721B-4FF4-A562-D8294F1AB34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3713EF0D-721B-4FF4-A562-D8294F1AB34D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E99646B-D2D6-4C5A-863A-2197008F3557}
+	EndGlobalSection
+EndGlobal

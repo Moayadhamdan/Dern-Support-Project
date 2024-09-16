@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|c:\\users\\student\\source\\repos\\dernsupport-backend\\dernsupport-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|solutionrelative:dernsupport-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 169,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "DernSupport-BackEnd\\Program.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\Program.cs",
+              "RelativeToolTip": "DernSupport-BackEnd\\Program.cs",
+              "ViewState": "AgIAABUAAACAmZmZmZklwKcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T21:32:26.542Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
