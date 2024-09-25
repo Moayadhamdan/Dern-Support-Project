@@ -57,15 +57,22 @@
 .home-title {
   font-size: 5rem; /* Large title font size */
   margin-bottom: 20px;
-  color: #000000; /* Blue title color */
+  color: #ffffff; /* Change to white for better contrast */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  padding: 10px; /* Add some padding for better readability */
+  border-radius: 8px; /* Rounded corners for a softer look */
 }
 
 .home-description {
   font-size: 1.9rem; /* Large description font size */
   max-width: 800px;
   margin: 20px auto;
-  color: #000000; /* Blue description color */
+  color: #ffffff; /* Change to white for better contrast */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  padding: 10px; /* Add some padding for better readability */
+  border-radius: 8px; /* Rounded corners for a softer look */
 }
+
 
 .home-button {
   font-size: 1.2rem; /* Larger button font size */
