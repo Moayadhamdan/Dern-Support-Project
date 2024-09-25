@@ -17310,11 +17310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\DernSupport-BackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\STUDENT\\OneDrive - LTUC\\Desktop\\Full Stack Project\\DernSupport-BackEnd\\DernSupport-BackEnd\\DernSupport-BackEnd.csproj",
       "projectName": "DernSupport-BackEnd",
-      "projectPath": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\DernSupport-BackEnd.csproj",
+      "projectPath": "C:\\Users\\STUDENT\\OneDrive - LTUC\\Desktop\\Full Stack Project\\DernSupport-BackEnd\\DernSupport-BackEnd\\DernSupport-BackEnd.csproj",
       "packagesPath": "C:\\Users\\STUDENT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\obj\\publish\\win-x86\\",
+      "outputPath": "C:\\Users\\STUDENT\\OneDrive - LTUC\\Desktop\\Full Stack Project\\DernSupport-BackEnd\\DernSupport-BackEnd\\obj\\publish\\win-x86\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\STUDENT\\AppData\\Roaming\\NuGet\\NuGet.Config",

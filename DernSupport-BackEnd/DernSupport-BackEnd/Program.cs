@@ -61,7 +61,7 @@ namespace DernSupport_BackEnd
                 options.AddPolicy("AllowReactApp",
                     policy =>
                     {
-                        policy.WithOrigins("http://localhost:3000")
+                        policy.WithOrigins("https://dern-support-project-yhe3.vercel.app")
                               .AllowAnyHeader()
                               .AllowAnyMethod();
                     });
