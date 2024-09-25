@@ -32,7 +32,7 @@ function Register() {
         payload.businessLocation = values.businessLocation;
       }
 
-      await axios.post("https://localhost:7125/api/Users/Register", payload);
+      await axios.post("http://dernsupport.runasp.net/api/Users/Register", payload);
 
       Swal.fire({
         icon: "success",

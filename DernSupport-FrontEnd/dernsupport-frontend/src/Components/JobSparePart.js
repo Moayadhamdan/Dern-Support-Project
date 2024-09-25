@@ -64,7 +64,7 @@ function JobSparePart() {
     const account = JSON.parse(localStorage.getItem("account"));
     try {
       const response = await axios.get(
-        "https://localhost:7125/api/JobSpareParts/allStocks",
+        "http://dernsupport.runasp.net/api/JobSpareParts/allStocks",
         {
           headers: { Authorization: `Bearer ${account.token}` },
         }
@@ -86,7 +86,7 @@ function JobSparePart() {
     const account = JSON.parse(localStorage.getItem("account"));
     try {
       await axios.put(
-        `https://localhost:7125/api/JobSpareParts/${currentRecord.jobSparePartId}`,
+        `http://dernsupport.runasp.net/api/JobSpareParts/${currentRecord.jobSparePartId}`,
         values, // Submit updated values
         {
           headers: {
@@ -114,7 +114,7 @@ function JobSparePart() {
     const account = JSON.parse(localStorage.getItem("account"));
     try {
       const response = await axios.get(
-        `https://localhost:7125/api/JobSpareParts/search?name=${value}`,
+        `http://dernsupport.runasp.net/api/JobSpareParts/search?name=${value}`,
         {
           headers: { Authorization: `Bearer ${account.token}` },
         }

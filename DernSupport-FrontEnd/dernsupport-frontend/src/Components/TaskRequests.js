@@ -13,7 +13,7 @@ const TaskRequests = () => {
     const getRequests = async () => {
         const account = JSON.parse(localStorage.getItem('account'));
         try {
-            const response = await axios.get("https://localhost:7125/api/Technicians/GetTechniciansRequests", {
+            const response = await axios.get("http://dernsupport.runasp.net/api/Technicians/GetTechniciansRequests", {
                 headers: { Authorization: `Bearer ${account.token}` },
             });
 
@@ -28,7 +28,7 @@ const TaskRequests = () => {
     const updateStatus = async (technicianTaskId, newStatus) => {
         const account = JSON.parse(localStorage.getItem('account'));
         try {
-            await axios.put(`https://localhost:7125/api/Technicians/UpdateRequestStatus/${technicianTaskId}`, `"${newStatus}"`, {
+            await axios.put(`http://dernsupport.runasp.net/api/Technicians/UpdateRequestStatus/${technicianTaskId}`, `"${newStatus}"`, {
                 headers: { Authorization: `Bearer ${account.token}`, 'Content-Type': 'application/json' },
             });
             getRequests();

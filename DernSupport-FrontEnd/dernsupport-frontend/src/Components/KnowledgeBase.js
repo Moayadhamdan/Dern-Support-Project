@@ -21,7 +21,7 @@ function KnowledgeBase() {
     setLoading(true);
     try {
       const { data } = await axios.get(
-        "https://localhost:7125/api/KnowledgeBases",
+        "http://dernsupport.runasp.net/api/KnowledgeBases",
         { headers }
       );
       setKnowledgeBaseItems(data);

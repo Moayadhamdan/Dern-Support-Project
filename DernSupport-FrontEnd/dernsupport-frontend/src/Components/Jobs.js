@@ -57,7 +57,7 @@ function Jobs() {
 
     try {
       const response = await axios.get(
-        "https://localhost:7125/api/Jobs/getAllJobs",
+        "http://dernsupport.runasp.net/api/Jobs/getAllJobs",
         {
           headers: { Authorization: `Bearer ${account.token}` },
         }
@@ -78,7 +78,7 @@ function Jobs() {
     const account = JSON.parse(localStorage.getItem("account"));
     try {
       await axios.put(
-        `https://localhost:7125/api/Jobs/${isModalOpen.jobsId}`,
+        `http://dernsupport.runasp.net/api/Jobs/${isModalOpen.jobsId}`,
         {
           title: isModalOpen.title,
           description: isModalOpen.description,

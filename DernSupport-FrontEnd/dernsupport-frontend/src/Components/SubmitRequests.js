@@ -25,7 +25,7 @@ function SubmitRequests() {
     try {
       const account = JSON.parse(localStorage.getItem("account"));
       const response = await axios.post(
-        "https://localhost:7125/api/Technicians/SubmitRequest",
+        "http://dernsupport.runasp.net/api/Technicians/SubmitRequest",
         {
           technicianTaskId: 0,
           userId: account.id,
@@ -54,7 +54,7 @@ function SubmitRequests() {
       setLoading(true);
       const account = JSON.parse(localStorage.getItem("account"));
       const response = await axios.get(
-        `https://localhost:7125/api/Technicians/GetTechniciansRequestsByUser?UserId=${account.id}`,
+        `http://dernsupport.runasp.net/api/Technicians/GetTechniciansRequestsByUser?UserId=${account.id}`,
         {
           headers: { Authorization: `Bearer ${account.token}` },
         }

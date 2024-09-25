@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|c:\\users\\student\\source\\repos\\dernsupport-backend\\dernsupport-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|solutionrelative:dernsupport-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|c:\\users\\student\\source\\repos\\dernsupport-backend\\dernsupport-backend\\controllers\\technicianscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|solutionrelative:dernsupport-backend\\controllers\\technicianscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|c:\\users\\student\\source\\repos\\dernsupport-backend\\dernsupport-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D168ED7-9F15-418B-B491-8B556D15FDD4}|DernSupport-BackEnd\\DernSupport-BackEnd.csproj|solutionrelative:dernsupport-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 169,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\Program.cs",
               "RelativeDocumentMoniker": "DernSupport-BackEnd\\Program.cs",
@@ -28,6 +36,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T21:32:26.542Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "DernSupport-BackEnd\\appsettings.json",
+              "ToolTip": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\appsettings.json",
+              "RelativeToolTip": "DernSupport-BackEnd\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T16:23:23.632Z",
               "EditorCaption": ""
             },
             {
@@ -49,6 +70,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TechniciansController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\Controllers\\TechniciansController.cs",
+              "RelativeDocumentMoniker": "DernSupport-BackEnd\\Controllers\\TechniciansController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\source\\repos\\DernSupport-BackEnd\\DernSupport-BackEnd\\Controllers\\TechniciansController.cs",
+              "RelativeToolTip": "DernSupport-BackEnd\\Controllers\\TechniciansController.cs",
+              "ViewState": "AgIAAFsAAAAACAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T09:21:16.019Z",
+              "EditorCaption": ""
             }
           ]
         }
