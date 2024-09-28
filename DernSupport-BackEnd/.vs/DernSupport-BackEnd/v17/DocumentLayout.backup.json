@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "DernSupport-BackEnd\\Program.cs",
               "ToolTip": "C:\\Users\\STUDENT\\OneDrive - LTUC\\Desktop\\Full Stack Project\\DernSupport-BackEnd\\DernSupport-BackEnd\\Program.cs",
               "RelativeToolTip": "DernSupport-BackEnd\\Program.cs",
-              "ViewState": "AgIAAC0AAACAmZmZmZklwD8AAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAawFUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T21:32:26.542Z",
               "IsPinned": true,
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "DernSupport-BackEnd\\appsettings.json",
               "ToolTip": "C:\\Users\\STUDENT\\OneDrive - LTUC\\Desktop\\Full Stack Project\\DernSupport-BackEnd\\DernSupport-BackEnd\\appsettings.json",
               "RelativeToolTip": "DernSupport-BackEnd\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAC/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-25T16:23:23.632Z",
               "EditorCaption": ""
@@ -81,8 +81,7 @@
               "RelativeToolTip": "DernSupport-BackEnd\\Controllers\\TechniciansController.cs",
               "ViewState": "AgIAAFsAAAAACAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T09:21:16.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T09:21:16.019Z"
             }
           ]
         }

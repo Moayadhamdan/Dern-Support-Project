@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DernSupport-BackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7c54e185418fc93a0f5bcdd51cc8e92389e3362")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7128ab378ccdf1e3f7adfbe71e4b050fcad869c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DernSupport-BackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DernSupport-BackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
